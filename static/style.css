@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #FFFFFF;
+}
+hr.dashed {
+  border-top: 5px dashed #ffffff;
+}
+.button-value {
+  border: 1px solid #010008;
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: #D2D2D2;
+  color: #000000;
+  cursor: pointer;
+  max-width: 200px;
+  max-height: 50px;
+}
+.active {
+  background-color: #D2D2D2;
+  color: #000000;
+}
+#card-matrix {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 1.5em;
+  padding: 2em 0;
+  justify-content: center;
+}
+.card-local {
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d2d2d2;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-container img {
+  max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+}
+.container {
+  padding-top: 1em;
+  color: #110f29;
+}
+.hide {
+  display: none;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #131A22;
+  position: fixed;
+  width: 100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 7px 7px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.topnav a.active {
+  background-color: #D2D2D2;
+  color: rgb(0, 0, 0);
+}
+.topnav .search-container a{
+  float: right;
+  
+  font-size: 17px;
+  padding: 7px 15px;
+}
+.topnav input[type=text] {
+  padding: 1px;
+  margin-top: 5px;
+  margin-right: 1px;
+  font-size: 20px;
+  border: none;
+  width: 170px;
+  float: right;
+  border-radius: 20px;
+}
+.topnav .search-container #search {
+  cursor: pointer;
+}
+.topnav .right-nav  {
+  float: right;
+  
+}
+.topnav .right-nav a {
+  
+  padding: 7px 15px;
+  font-size: 17px;
+}
+.button1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navgap {
+  padding-top: 40px;
+}
+@media screen and (max-width: 720px) {
+  #card-matrix {
+    grid-template-columns: auto auto;
+  }
+  .card-local {
+    max-width: 185px;
+  }
+  .topnav .left-nav  {
+    display: none;
+  }
+  .topnav .right-nav {
+    display: none;
+  }
+  .carousel iframe {
+    height: 80px;
+  }
+}
+.product-tag {
+  display: none;
+}
