@@ -1,7 +1,7 @@
 {
   "name": "DC-SHOP",
   "short_name": "DC-SHOP",
-  "start_url": "index.html",
+  "start_url": "mobile.html",
   "display": "standalone",
   "background_color": "#131A22",
   "theme_color": "#db4938",
