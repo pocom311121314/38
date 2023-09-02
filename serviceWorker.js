@@ -1,8 +1,13 @@
 const dc = "dcshopv3"
 const assets = [
   "/",
+  "/index-mobile.html",
+  "/search-mobile.html",
+  "/ordertracking-mobile.html",
+  "/static/data.js",
+  "/static/style-mobile.css",
   
-  
+
 ]
 
 self.addEventListener("install", installEvent => {
