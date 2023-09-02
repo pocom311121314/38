@@ -3,7 +3,7 @@
   "short_name": "DC-SHOP",
   "start_url": "index-mobile.html",
   "display": "standalone",
-  "background_color": "#131A22",
+  "background_color": "#FFFFFF",
   "theme_color": "#131A22",
   "orientation": "portrait-primary",
   "icons": [
