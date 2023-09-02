@@ -146,7 +146,7 @@ hr.dashed {
   background-color: #FFFFFF;
 }
 
-.active {
+.icon-bar .active {
   background-color: #D2D2D2;
   color: #000000;
 }
