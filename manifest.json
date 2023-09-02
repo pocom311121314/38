@@ -1,6 +1,6 @@
 {
-  "name": "DS-SHOP",
-  "short_name": "DS-SHOP",
+  "name": "DC-SHOP",
+  "short_name": "DC-SHOP",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#131A22",
