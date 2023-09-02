@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +15,7 @@
   <body>
     <div class="topnav">
       <div class="mobile-nav">
-        <a href="/"><i class="fa fa-bars"></i></a>
+        <a class="active" href="/"><i class="fa fa-home"></i> DC-SHOP</a>
       </div>
       <div class="left-nav">
       <a href="/"><i class="fa fa-users"></i> SELL</a>
@@ -33,49 +32,20 @@
       </div>
       <div class="search-container">
         
-        <a href="mobile-ordertracking.html"><i class="fa fa-truck"></i></a>
-        <a href="mobile-search.html"><i class="fa fa-search"></i></a>
+        <a href="ordertracking.html"><i class="fa fa-truck"></i></a>
+        <a href="search.html"><i class="fa fa-search"></i></a>
       </div>
     </div> 
-    <div class="navgap">
+    <div class="nav-pad">
       <img src="/static/image/index-13.avif"  width="100%" >
     </div>
-    <div class="carousel">
-      <iframe src="carousel-a.html" width="100%" height="260px">  </iframe>
+    <div class="desktop">
+      <img src="/static/image/ordertracking-01.jpg"  width="100%" >
     </div>
-    <img src="/static/image/index-14.jpg" width="100%" >
-    <div class="carousel">
-      <iframe src="carousel-b.html" width="100%" height="260px">  </iframe>
+    <div class="mobile" >
+      <img src="/static/image/ordertracking-02.avif"  width="100%" >
     </div>
     
-    <!--divider-->
-    <hr class="dashed">
-     <img width="100%" src="/static/image/index-07.avif">
-     <!--divider-->
-    <hr class="dashed">
-     <img src="/static/image/index-08.avif"  width="100%">
-     <!--divider-->
-    <hr class="dashed">
-    <img src="/static/image/index-09.avif"  width="100%">
-    <!--divider-->
-    <hr class="dashed">
-    <img src="/static/image/index-10.jpg"  width="100%">
-    <!--divider-->
-    <hr class="dashed">
-    
-    <!--render products--->
-    <div>
-      <iframe src="explore.html" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-      
-    </div>
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
     <img width="100%" src="/static/image/index-12.jpg">
-    
-   
-      
   </body>
 </html>
