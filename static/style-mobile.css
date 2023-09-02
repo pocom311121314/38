@@ -28,14 +28,14 @@ hr.dashed {
 }
 #card-matrix {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto ;
   grid-column-gap: 0.5em;
   grid-row-gap: 1.5em;
   padding: 2em 0;
   justify-content: center;
 }
 .card-local {
-    max-width: 200px;
+    max-width: 185px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -119,28 +119,33 @@ hr.dashed {
 .navgap {
   padding-top: 50px;
 }
-@media screen and (max-width: 720px) {
-  #card-matrix {
-    grid-template-columns: auto auto;
-  }
-  .card-local {
-    max-width: 185px;
-  }
-  .topnav .left-nav  {
-    display: none;
-  }
-  .topnav .right-nav {
-    display: none;
-  }
-  .carousel iframe {
-    height: 80px;
-  }
-  .topnav input[type=text] {
-    font-size: 20px;
-    width: 200px;
-    
-  }
-}
+
 .product-tag {
   display: none;
+}
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: visible;
+  position: fixed;
+  bottom: 0; 
+ }
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
 }
