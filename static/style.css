@@ -70,7 +70,7 @@ hr.dashed {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 10px 7px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -136,7 +136,7 @@ hr.dashed {
     height: 80px;
   }
   .topnav input[type=text] {
-    
+    font-size: 20px;
     width: 150px;
     
   }
