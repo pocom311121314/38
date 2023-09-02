@@ -94,7 +94,7 @@ hr.dashed {
   margin-right: 1px;
   font-size: 20px;
   border: none;
-  width: 250px;
+  width: 200px;
   float: right;
   border-radius: 20px;
 }
@@ -137,7 +137,7 @@ hr.dashed {
   }
   .topnav input[type=text] {
     font-size: 20px;
-    width: 150px;
+    width: 40%;
     
   }
 }
