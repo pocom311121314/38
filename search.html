@@ -61,9 +61,16 @@
        <hr class="dashed">
        <img src="/static/image/search-02.jpg" width="100%">
        <main id="card-matrix"><!--render product---></main>
-       
+       <div>
+        <iframe src="/explore.html" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+        
+      </div>
        <img src="/static/image/index-12.jpg" width="100%">
        <script src="/static/data.js"></script>
-       <script> window.onload = () => { filterProduct("explore"); };</script>
+       <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
   </body>
 </html>
