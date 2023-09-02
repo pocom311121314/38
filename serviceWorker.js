@@ -1,9 +1,7 @@
 const dc = "dcshopv3"
 const assets = [
   "/",
-  "/index-mobile.html",
-  "/static/style-mobile.css",
-  "/static/data.js",
+  
   
 ]
 
