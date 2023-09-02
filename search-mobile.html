@@ -44,9 +44,11 @@
        <hr class="dashed">
        <img src="/static/image/search-02.jpg" width="100%">
        <main id="card-matrix"><!--render product---></main>
-       
-       
-       <img width="100%" src="/static/image/index-12.jpg">
+       <div>
+        <iframe src="/explore.html" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+        
+      </div>
+      <img width="100%" src="/static/image/index-12.jpg">
        <div class="icon-bar">
         <a href="/index-mobile.html"><i class="fa fa-home"></i></a> 
         <a href="/index-mobile.html"><i class="fa fa-heart"></i></a> 
@@ -55,6 +57,10 @@
         <a href="/ordertracking-mobile.html"><i class="fa fa-truck"></i></a> 
       </div>
        <script src="/static/data.js"></script>
-       <script> window.onload = () => { filterProduct("explore"); };</script>
+       <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
   </body>
 </html>
