@@ -86,7 +86,7 @@ hr.dashed {
   float: right;
   
   font-size: 17px;
-  padding: 9px 15px;
+  padding: 10px 15px;
 }
 .topnav input[type=text] {
   padding: 1px;
@@ -107,7 +107,7 @@ hr.dashed {
 }
 .topnav .right-nav a {
   
-  padding: 7px 15px;
+  padding: 10px 15px;
   font-size: 17px;
 }
 .button1-container {
